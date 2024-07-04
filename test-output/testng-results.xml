@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-04T18:07:20Z" name="Suite" finished-at="2024-07-04T18:07:23Z" duration-ms="3187">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.loginRunner@1869fbd2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-04T18:07:20Z" name="Test" finished-at="2024-07-04T18:07:23Z" duration-ms="3187">
+      <class name="TestRunner.loginRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.loginRunner@1869fbd2]" started-at="2024-07-04T18:07:20Z" name="setUpClass" finished-at="2024-07-04T18:07:20Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.loginRunner@1869fbd2]" started-at="2024-07-04T18:07:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-04T18:07:23Z" duration-ms="2956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["go to googlepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[cheking the google for jenkins integration]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.loginRunner@1869fbd2]" started-at="2024-07-04T18:07:23Z" name="tearDownClass" finished-at="2024-07-04T18:07:23Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.loginRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
